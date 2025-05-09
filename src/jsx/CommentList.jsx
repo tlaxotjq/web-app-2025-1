@@ -88,8 +88,9 @@ function CommentList(props){
       qs.forEach(function (doc) {
         tempData.push(doc.data());
       });
-      const filterdData = tempData.filter((comments)=> comments.post == postId)
-      setData(filterdData);
+      const filterdData = tempData.filter((comments)=> comments.post == postId) 
+      const sortData = filterdData.sort((a,b) => b.id -  a.id)
+      setData(sortData);
     });
   };
 

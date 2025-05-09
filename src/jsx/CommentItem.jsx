@@ -40,6 +40,7 @@ const StyledUser = styled.div`
     font-size: 13px;
     display: flex;
     justify-content: space-between;
+    width: 240px;
     padding: 0;
     margin: 0;
     margin-bottom: 6px;
