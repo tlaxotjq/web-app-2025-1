@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "hompage": "//tlaxotjq.github.io/web-app-2025-1/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
+    
   },
   "dependencies": {
     "firebase": "^11.6.0",
