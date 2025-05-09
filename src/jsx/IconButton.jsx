@@ -30,7 +30,7 @@ function IconButton(props){
 
     return (
         <StyledButton onClick={onClick}>
-            <i className={iconLink}></i> <span>{text || '0'}</span>
+            <i className={iconLink}></i> <span>{text || '00'}</span>
         </StyledButton>
     )
 }
